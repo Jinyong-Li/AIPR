@@ -232,7 +232,7 @@ def main():
     """主函数"""
 
     # 1. 读取数据
-    file_path = r'D:\ljy_course\rgzn\hw\zctxgyh.xlsx'
+    file_path = r'D:\ljy_course\rgzn\hw\zctxgyh.xlsx' # 修改为你的数据路径
     X, y, feature_name, label_name = load_and_preprocess_data(file_path)
 
     # 2. 绘制散点图
